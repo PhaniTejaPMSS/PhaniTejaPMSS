@@ -15,5 +15,5 @@
 </p>
 
 <p align="center">
-  <a href="[LinkedIn](http://linkedin.com/in/phani-teja-p-m-s-s)">LinkedIn</a> &nbsp;/&nbsp; <a href="https://github.com/PhaniTejaPMSS?tab=repositories">Repositories</a>
+  <a href="http://linkedin.com/in/phani-teja-p-m-s-s">LinkedIn</a> &nbsp;/&nbsp; <a href="https://github.com/PhaniTejaPMSS?tab=repositories">Repositories</a>
 </p>
