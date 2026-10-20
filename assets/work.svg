@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400" role="img" aria-labelledby="t d">
+  <title id="t">Where I work and what I value</title>
+  <desc id="d">Where I work: AI and engineering (code understanding, generation workflows, legacy modernization); backend systems (async services, event-driven coordination, dependency-aware execution); product engineering (UI, APIs, data and the details between them). What I value: useful over flashy, clarity over cleverness, end-to-end ownership.</desc>
+  <defs>
+    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M0 0H100M0 20H100M0 40H100M0 60H100M0 80H100M20 0V100M40 0V100M60 0V100M80 0V100" stroke="#1a4676" stroke-width="0.6" fill="none"/>
+      <path d="M100 0H0V100" stroke="#2a62a0" stroke-width="1" fill="none"/>
+    </pattern>
+  </defs>
+  <style>
+    .serif{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
+    .sans{font-family:"Avenir Next","Segoe UI",Helvetica,Arial,sans-serif}
+    .h{font-size:17px;font-style:italic;fill:#ffd166}
+    .t{font-size:26px;fill:#f4f9ff}
+    .v{font-size:22px;font-style:italic;fill:#f4f9ff}
+    .b{font-size:14.5px;fill:#bcd3ea}
+  </style>
+  <rect width="1000" height="400" rx="6" fill="#0f2d52"/>
+  <rect width="1000" height="400" rx="6" fill="url(#grid)"/>
+  <rect x="10" y="10" width="980" height="380" fill="none" stroke="#cfe3f7" stroke-opacity=".7" stroke-width="1.2"/>
+  <path d="M352 40V366M676 40V366M30 226H970" stroke="#cfe3f7" stroke-opacity=".6" stroke-width="1"/>
+
+  <text class="serif h" x="48" y="56">Where I work</text>
+  <g class="serif">
+    <text class="t" x="48"  y="100">AI and engineering</text>
+    <text class="t" x="376" y="100">Backend systems</text>
+    <text class="t" x="700" y="100">Product engineering</text>
+  </g>
+  <g class="sans">
+    <text class="b" x="48" y="132">Code understanding,</text>
+    <text class="b" x="48" y="154">generation workflows,</text>
+    <text class="b" x="48" y="176">and legacy modernization.</text>
+
+    <text class="b" x="376" y="132">Async services,</text>
+    <text class="b" x="376" y="154">event-driven coordination,</text>
+    <text class="b" x="376" y="176">dependency-aware execution.</text>
+
+    <text class="b" x="700" y="132">Building across UI, APIs,</text>
+    <text class="b" x="700" y="154">data, and the details</text>
+    <text class="b" x="700" y="176">between them.</text>
+  </g>
+
+  <text class="serif h" x="48" y="264">What I value</text>
+  <g class="serif">
+    <text class="v" x="48"  y="306">Useful over flashy</text>
+    <text class="v" x="376" y="306">Clarity over cleverness</text>
+    <text class="v" x="700" y="306">End-to-end ownership</text>
+  </g>
+  <g class="sans">
+    <text class="b" x="48" y="334">Built for a real workflow,</text>
+    <text class="b" x="48" y="356">not just for a demo.</text>
+
+    <text class="b" x="376" y="334">Systems that are easy to</text>
+    <text class="b" x="376" y="356">understand and maintain.</text>
+
+    <text class="b" x="700" y="334">Product experience and</text>
+    <text class="b" x="700" y="356">backend behavior, connected.</text>
+  </g>
+</svg>

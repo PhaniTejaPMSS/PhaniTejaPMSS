@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="1000" height="360" role="img" aria-labelledby="t d">
+  <title id="t">Phani Teja</title>
+  <desc id="d">A blueprint-style sheet. Phani Teja builds tools that make software engineering smarter, and products that make everyday work simpler. Figure 1 shows a dependency graph, read, map dependencies, plan and test in parallel, generate, verify, ship, lighting up in order.</desc>
+  <defs>
+    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M0 0H100M0 20H100M0 40H100M0 60H100M0 80H100M20 0V100M40 0V100M60 0V100M80 0V100" stroke="#1a4676" stroke-width="0.6" fill="none"/>
+      <path d="M100 0H0V100" stroke="#2a62a0" stroke-width="1" fill="none"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L8 4L0 8z" fill="#cfe3f7"/>
+    </marker>
+  </defs>
+  <style>
+    .serif{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
+    .sans{font-family:"Avenir Next","Segoe UI",Helvetica,Arial,sans-serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .edge{fill:none;stroke:#cfe3f7;stroke-width:1.3;stroke-dasharray:5 5;opacity:.85;animation:flow 1.4s linear infinite}
+    .node rect{fill:transparent;stroke:#f4f9ff;stroke-width:1.5;animation:lit 9s ease-in-out infinite}
+    .node text{fill:#f4f9ff;font-size:12px;text-anchor:middle;animation:ink 9s ease-in-out infinite}
+    .n1 *{animation-delay:0s}.n2 *{animation-delay:1s}.n3 *{animation-delay:2s}.n4 *{animation-delay:3s}.n5 *{animation-delay:4s}.n6 *{animation-delay:5s}
+    .dot{animation:blink 2.4s steps(1) infinite}
+    @keyframes flow{to{stroke-dashoffset:-20}}
+    @keyframes lit{0%{fill:transparent}3%,14%{fill:#ffd166}26%,100%{fill:transparent}}
+    @keyframes ink{0%{fill:#f4f9ff}3%,14%{fill:#0f2d52}26%,100%{fill:#f4f9ff}}
+    @keyframes blink{0%,70%{opacity:1}71%,100%{opacity:.25}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+
+  <rect width="1000" height="360" rx="6" fill="#0f2d52"/>
+  <rect width="1000" height="360" rx="6" fill="url(#grid)"/>
+  <rect x="10" y="10" width="980" height="340" fill="none" stroke="#cfe3f7" stroke-opacity=".7" stroke-width="1.2"/>
+
+  <!-- name + statement -->
+  <text class="serif" x="48" y="118" font-size="72" fill="#f4f9ff" letter-spacing="-1">Phani Teja</text>
+  <text class="serif" x="50" y="160" font-size="21" font-style="italic" fill="#bcd3ea">I build tools that make software engineering smarter,</text>
+  <text class="serif" x="50" y="188" font-size="21" font-style="italic" fill="#bcd3ea">and products that make everyday work simpler.</text>
+
+  <!-- title block -->
+  <g class="sans">
+    <rect x="676" y="40" width="286" height="108" fill="#0f2d52" fill-opacity=".92" stroke="#cfe3f7" stroke-width="1.2"/>
+    <path d="M676 76H962M676 112H962" stroke="#cfe3f7" stroke-width="1"/>
+    <text x="688" y="54" font-size="10" font-style="italic" fill="#9db8d6">drawn by</text>
+    <text x="688" y="69" font-size="13" font-weight="600" fill="#f4f9ff">Phani Teja</text>
+    <text x="688" y="90" font-size="10" font-style="italic" fill="#9db8d6">subject</text>
+    <text x="688" y="105" font-size="13" font-weight="600" fill="#f4f9ff">AI engineering, full-stack systems</text>
+    <text x="688" y="126" font-size="10" font-style="italic" fill="#9db8d6">status</text>
+    <circle class="dot" cx="692" cy="136" r="4" fill="#ffd166"/>
+    <text x="704" y="140" font-size="13" font-weight="600" fill="#f4f9ff">open to conversations</text>
+  </g>
+
+  <!-- Fig. 1: dependency graph -->
+  <g>
+    <path class="edge" marker-end="url(#arrow)" d="M150 270H198"/>
+    <path class="edge" marker-end="url(#arrow)" d="M350 270C382 270 380 240 408 240"/>
+    <path class="edge" marker-end="url(#arrow)" d="M350 270C382 270 380 300 408 300"/>
+    <path class="edge" marker-end="url(#arrow)" d="M500 240C530 240 528 270 558 270"/>
+    <path class="edge" marker-end="url(#arrow)" d="M500 300C530 300 528 270 558 270"/>
+    <path class="edge" marker-end="url(#arrow)" d="M670 270H718"/>
+    <path class="edge" marker-end="url(#arrow)" d="M810 270H858"/>
+  </g>
+  <g class="mono">
+    <g class="node n1"><rect x="60"  y="255" width="90"  height="30" rx="3"/><text x="105" y="274">read</text></g>
+    <g class="node n2"><rect x="200" y="255" width="150" height="30" rx="3"/><text x="275" y="274">map dependencies</text></g>
+    <g class="node n3"><rect x="410" y="225" width="90"  height="30" rx="3"/><text x="455" y="244">plan</text></g>
+    <g class="node n3"><rect x="410" y="285" width="90"  height="30" rx="3"/><text x="455" y="304">test</text></g>
+    <g class="node n4"><rect x="560" y="255" width="110" height="30" rx="3"/><text x="615" y="274">generate</text></g>
+    <g class="node n5"><rect x="720" y="255" width="90"  height="30" rx="3"/><text x="765" y="274">verify</text></g>
+    <g class="node n6"><rect x="860" y="255" width="80"  height="30" rx="3"/><text x="900" y="274">ship</text></g>
+  </g>
+  <text class="serif" x="60" y="336" font-size="14" font-style="italic" fill="#9db8d6">Fig. 1  Understand first, change second, check last.</text>
+</svg>

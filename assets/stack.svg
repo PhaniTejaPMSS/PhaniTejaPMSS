@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320" role="img" aria-labelledby="t d">
+  <title id="t">Stack and certifications</title>
+  <desc id="d">Languages: Python, TypeScript, JavaScript. Web: React, Vite, Tailwind CSS, Node.js, Express, FastAPI. Data: PostgreSQL, MySQL, SQLite, SQLAlchemy, ChromaDB. AI and LLM: PyTorch, TensorFlow, Transformers, LangChain, LangGraph, RAG, Ollama. Infrastructure: Docker, Azure, Git, Linux. Certifications: Microsoft AI-102 Azure AI Engineer Associate, Microsoft AI-200 Azure AI Cloud Developer Associate, Claude CCAR-F Claude Certified Architect, Foundations.</desc>
+  <defs>
+    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M0 0H100M0 20H100M0 40H100M0 60H100M0 80H100M20 0V100M40 0V100M60 0V100M80 0V100" stroke="#1a4676" stroke-width="0.6" fill="none"/>
+      <path d="M100 0H0V100" stroke="#2a62a0" stroke-width="1" fill="none"/>
+    </pattern>
+  </defs>
+  <style>
+    .serif{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
+    .sans{font-family:"Avenir Next","Segoe UI",Helvetica,Arial,sans-serif}
+    .h{font-size:17px;font-style:italic;fill:#ffd166}
+    .col{font-size:12.5px;font-style:italic;fill:#9db8d6}
+    .l{font-size:15px;font-weight:600;fill:#f4f9ff}
+    .r{font-size:15px;fill:#bcd3ea}
+    .code{font-size:15px;font-weight:700;fill:#ffd166}
+    .nm{font-size:11.5px;fill:#ffe3a3}
+  </style>
+  <rect width="1000" height="320" rx="6" fill="#0f2d52"/>
+  <rect width="1000" height="320" rx="6" fill="url(#grid)"/>
+  <rect x="10" y="10" width="980" height="300" fill="none" stroke="#cfe3f7" stroke-opacity=".7" stroke-width="1.2"/>
+  <path d="M660 36V284" stroke="#cfe3f7" stroke-opacity=".6" stroke-width="1"/>
+
+  <!-- parts list -->
+  <text class="serif h" x="48" y="56">Stack</text>
+  <g class="sans">
+    <text class="col" x="48" y="86">Layer</text><text class="col" x="190" y="86">Tools</text>
+    <path d="M48 96H620" stroke="#cfe3f7" stroke-width="1.2"/>
+    <text class="l" x="48" y="124">Languages</text><text class="r" x="190" y="124">Python, TypeScript, JavaScript</text>
+    <path d="M48 136H620" stroke="#cfe3f7" stroke-opacity=".35"/>
+    <text class="l" x="48" y="162">Web</text><text class="r" x="190" y="162">React, Vite, Tailwind CSS, Node.js, Express, FastAPI</text>
+    <path d="M48 174H620" stroke="#cfe3f7" stroke-opacity=".35"/>
+    <text class="l" x="48" y="200">Data</text><text class="r" x="190" y="200">PostgreSQL, MySQL, SQLite, SQLAlchemy, ChromaDB</text>
+    <path d="M48 212H620" stroke="#cfe3f7" stroke-opacity=".35"/>
+    <text class="l" x="48" y="238">AI and LLM</text>
+    <text class="r" x="190" y="238">PyTorch, TensorFlow, Transformers,</text>
+    <text class="r" x="190" y="258">LangChain, LangGraph, RAG, Ollama</text>
+    <path d="M48 270H620" stroke="#cfe3f7" stroke-opacity=".35"/>
+    <text class="l" x="48" y="290">Infrastructure</text><text class="r" x="190" y="290">Docker, Azure, Git, Linux</text>
+  </g>
+
+  <!-- approval stamps -->
+  <text class="serif h" x="700" y="56">Certifications</text>
+  <g class="sans">
+    <g transform="rotate(-1.6 837 107)">
+      <rect x="700" y="76" width="274" height="62" rx="4" fill="#ffd166" fill-opacity=".07" stroke="#ffd166" stroke-width="1.6"/>
+      <text class="code" x="716" y="102">AI-102</text>
+      <text class="nm" x="716" y="123">Azure AI Engineer Associate</text>
+    </g>
+    <g transform="rotate(1.2 837 183)">
+      <rect x="700" y="152" width="274" height="62" rx="4" fill="#ffd166" fill-opacity=".07" stroke="#ffd166" stroke-width="1.6"/>
+      <text class="code" x="716" y="178">AI-200</text>
+      <text class="nm" x="716" y="199">Azure AI Cloud Developer Associate</text>
+    </g>
+    <g transform="rotate(-1 837 259)">
+      <rect x="700" y="228" width="274" height="62" rx="4" fill="#ffd166" fill-opacity=".07" stroke="#ffd166" stroke-width="1.6"/>
+      <text class="code" x="716" y="254">CCAR-F</text>
+      <text class="nm" x="716" y="275">Claude Certified Architect — Foundations</text>
+    </g>
+  </g>
+</svg>
